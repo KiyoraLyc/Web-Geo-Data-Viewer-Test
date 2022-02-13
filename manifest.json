@@ -1,0 +1,26 @@
+{
+    "name": "My Sample PWA",
+    "short_name": "SamplePWA",
+    "description": "A sample PWA for testing purposes",
+    "start_url": "/pwamap/",
+    "lang": "Zh-tw",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/icon/favicon.png",
+            "sizes": "512x512"
+        }
+    ],
+    "file_handlers": [
+        {
+            "action": "/pwamap/",
+            "accept": {
+                "image/png": [
+                    ".geojson"
+                ]
+            }
+        }
+    ]
+}

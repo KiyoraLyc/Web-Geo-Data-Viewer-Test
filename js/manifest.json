@@ -1,0 +1,17 @@
+{
+  "name": "青新清運",
+  "short_name": "青新清運",
+  "start_url": "https://wa-chinshin.azurewebsites.net",
+  "display": "standalone",
+  "background_color": "#5900b3",
+  "theme_color": "black",
+  "scope": ".",
+  "description": "青新清運PWA",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16",
+      "type": "image/jpg"
+    }
+  ]
+}
